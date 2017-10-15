@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #5C0454;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+.namecard {
+    background-color: #FDFF7E;
+    min-width: 860px;
+    width: 80%;
+    height: 40%;
+    min-height: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 20vh;
+    font-family: "微軟正黑體";
+    color: #666;
+}
+
+.head {
+    height: 70%;
+    width: 35vh;
+    float: left;
+}
+
+.head>img {
+    height: 100%;
+}
+
+.right div:first-child {
+    margin-top: 5%;
+    font-size: 2rem;
+}
+
+.right div:nth-child(2) {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.right span {
+    padding-left: 20px;
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+}
+
+div.circle {
+    border-radius: 50%;
+    position: absolute;
+    transition-duration: 1s
+}
+
+div.right {
+    position: relative;
+}
+
+div.circle1 {
+    top: -20px;
+    right: 150px;
+    width: 100px;
+    height: 100px;
+    border-color: #3F0247;
+    border-style: solid;
+    border-width: 5px;
+}
+
+div.circle2 {
+    top: 50px;
+    right: 300px;
+    background-color: #3F0247;
+    width: 60px;
+    height: 60px;
+}
+
+.namecard:hover .circle2 {
+    transform: translateX(100px) translateY(-40px) scale(0)
+}
+
+.namecard:hover .circle1 {
+    transform: translateX(20px) translateY(0) scale(1.5)
+}
+    </style>
+    <title>給睿紘的祝福</title>
+</head>
+
+<body>
+    <div class="namecard">
+        <div class="head"><img src="./img/47189729_p0.jpg" alt=""></div>
+        <div class="right">
+            <div>生日祝福卡片<span>Fighting!!!</span></div>
+            <div>好久不見的睿紘:</div>
+            <hr>
+            <div>首先要祝福你二十歲生日快樂
+                <br>(我們應該同年吧XD)
+                <br>我要為維修醫師祈禱
+                <br>真心祝福他  早日康復~~
+                <br>懷念你的國小同學 <b>楊立承</b> 敬祝</div>
+            <div class="circle circle1"></div>
+            <div class="circle circle2"></div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
+
+
